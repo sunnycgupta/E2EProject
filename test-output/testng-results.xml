@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[<br>WebElement is Visible with xpath : //h2[text()='Current weather and forecasts in your city']]]>
+    </line>
+    <line>
+      <![CDATA[<br>pageObjects.WeatherLandingPage: Page Load Successfully.]]>
+    </line>
+    <line>
+      <![CDATA[<br>WebElement is Visible with xpath : //h3[normalize-space(.)='Sign In']]]>
+    </line>
+    <line>
+      <![CDATA[<br>pageObjects.WeatherSignInPage: Page Load Successfully.]]>
+    </line>
+    <line>
+      <![CDATA[-> xpath: //div[@class='input-group']//input[@id='user_email']]: Object Loaded successfully. ]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[-> xpath: //div[@class='panel-body']]: Object Loaded successfully. ]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[<br> Passed : Actual Text:= [Invalid Email or password.] Expected Text:= [Invalid Email or password]]]>
+    </line>
+    <line>
+      <![CDATA[-> xpath: //div[@class='input-group']//input[@id='user_email']]: Object Loaded successfully. ]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[-> xpath: //div[@class='panel-body']]: Object Loaded successfully. ]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[<br> Passed : Actual Text:= [Signed in successfully.] Expected Text:= [Signed in successfully]]]>
+    </line>
+    <line>
+      <![CDATA[<br>WebElement is Visible with xpath : //h2[text()='Current weather and forecasts in your city']]]>
+    </line>
+    <line>
+      <![CDATA[<br>pageObjects.WeatherLandingPage: Page Load Successfully.]]>
+    </line>
+    <line>
+      <![CDATA[<br> Passed : Actual Text:= [Current weather and forecasts in your city] Expected Text:= [Current weather and forecasts in your city]]]>
+    </line>
+    <line>
+      <![CDATA[<br> Passed : Actual Text:= [Sign In] Expected Text:= [Sign In]]]>
+    </line>
+    <line>
+      <![CDATA[<br> Passed : Actual Text:= [Sign Up] Expected Text:= [Sign Up]]]>
+    </line>
+    <line>
+      <![CDATA[<br> Passed : Actual Text:= [openweathermap] Expected Text:= [openweathermap]]]>
+    </line>
+    <line>
+      <![CDATA[<br> Passed : Actual Text:= [Your city name] Expected Text:= [Your city name]]]>
+    </line>
+    <line>
+      <![CDATA[<br>WebElement is Visible with xpath : //h2[text()='Current weather and forecasts in your city']]]>
+    </line>
+    <line>
+      <![CDATA[<br>pageObjects.WeatherLandingPage: Page Load Successfully.]]>
+    </line>
+    <line>
+      <![CDATA[-> xpath: //input[@placeholder='Your city name']]: Object Loaded successfully. ]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[<br>WebElement is Visible with xpath : //h2[span[text()='Weather in your city']]]]>
+    </line>
+    <line>
+      <![CDATA[<br>pageObjects.WeatherCityNotFoundPage: Page Load Successfully.]]>
+    </line>
+    <line>
+      <![CDATA[-> xpath: //div[text()='Not found']]: Object Loaded successfully. ]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[<br> Passed : Actual Text:= [×
+Not found] Expected Text:= [Not found]]]>
+    </line>
+    <line>
+      <![CDATA[<br> Passed : Actual Text:= [loondon] Expected Text:= [loondon]]]>
+    </line>
+    <line>
+      <![CDATA[<br>WebElement is Visible with xpath : //h2[text()='Current weather and forecasts in your city']]]>
+    </line>
+    <line>
+      <![CDATA[<br>pageObjects.WeatherLandingPage: Page Load Successfully.]]>
+    </line>
+    <line>
+      <![CDATA[-> xpath: //input[@placeholder='Your city name']]: Object Loaded successfully. ]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[<br>WebElement is Visible with xpath : //h2[span[text()='Weather in your city']]]]>
+    </line>
+    <line>
+      <![CDATA[<br>pageObjects.WeatherCityFoundPage: Page Load Successfully.]]>
+    </line>
+    <line>
+      <![CDATA[-> xpath: //a[normalize-space(.)='London, GB']]: Object Loaded successfully. ]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[<br> Passed : Actual Text:= [London, GB] Expected Text:= [London, GB]]]>
+    </line>
+    <line>
+      <![CDATA[<br> Passed : Actual Text:= [London, GB] Expected Text:= [London, GB]]]>
+    </line>
+    <line>
+      <![CDATA[-> xpath: //p[contains(normalize-space(),'temperature from')]]: Object Loaded successfully. ]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[<br> Failed : Actual Text:= [14.5°С temperature from 12 to 17 °С, wind 3.1 m/s. clouds 90 %, 1028 hpa] Expected Text:= [temperature from]]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="56490" started-at="2018-10-21T20:08:17Z" finished-at="2018-10-21T20:09:14Z">
+    <groups>
+    </groups>
+    <test name="Scenarios Related to Open Weather Api" duration-ms="56490" started-at="2018-10-21T20:08:17Z" finished-at="2018-10-21T20:09:14Z">
+      <class name="testCases.WeatherForcastTestCase">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.WeatherForcastTestCase@31a5c39e]" name="initialize" is-config="true" duration-ms="5756" started-at="2018-10-21T20:08:17Z" finished-at="2018-10-21T20:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="checkForValidAndInvalidSignIn()[pri:0, instance:testCases.WeatherForcastTestCase@31a5c39e]" name="checkForValidAndInvalidSignIn" duration-ms="9041" started-at="2018-10-21T20:08:23Z" finished-at="2018-10-21T20:08:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>WebElement is Visible with xpath : //h2[text()='Current weather and forecasts in your city']]]>
+            </line>
+            <line>
+              <![CDATA[<br>pageObjects.WeatherLandingPage: Page Load Successfully.]]>
+            </line>
+            <line>
+              <![CDATA[<br>WebElement is Visible with xpath : //h3[normalize-space(.)='Sign In']]]>
+            </line>
+            <line>
+              <![CDATA[<br>pageObjects.WeatherSignInPage: Page Load Successfully.]]>
+            </line>
+            <line>
+              <![CDATA[-> xpath: //div[@class='input-group']//input[@id='user_email']]: Object Loaded successfully. ]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[-> xpath: //div[@class='panel-body']]: Object Loaded successfully. ]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[<br> Passed : Actual Text:= [Invalid Email or password.] Expected Text:= [Invalid Email or password]]]>
+            </line>
+            <line>
+              <![CDATA[-> xpath: //div[@class='input-group']//input[@id='user_email']]: Object Loaded successfully. ]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[-> xpath: //div[@class='panel-body']]: Object Loaded successfully. ]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[<br> Passed : Actual Text:= [Signed in successfully.] Expected Text:= [Signed in successfully]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkForValidAndInvalidSignIn -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.WeatherForcastTestCase@31a5c39e]" name="teardown" is-config="true" duration-ms="238" started-at="2018-10-21T20:08:32Z" finished-at="2018-10-21T20:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.WeatherForcastTestCase@31a5c39e]" name="initialize" is-config="true" duration-ms="5392" started-at="2018-10-21T20:08:32Z" finished-at="2018-10-21T20:08:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="landingAndVerifyingFieldValues()[pri:0, instance:testCases.WeatherForcastTestCase@31a5c39e]" name="landingAndVerifyingFieldValues" duration-ms="4045" started-at="2018-10-21T20:08:38Z" finished-at="2018-10-21T20:08:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>WebElement is Visible with xpath : //h2[text()='Current weather and forecasts in your city']]]>
+            </line>
+            <line>
+              <![CDATA[<br>pageObjects.WeatherLandingPage: Page Load Successfully.]]>
+            </line>
+            <line>
+              <![CDATA[<br> Passed : Actual Text:= [Current weather and forecasts in your city] Expected Text:= [Current weather and forecasts in your city]]]>
+            </line>
+            <line>
+              <![CDATA[<br> Passed : Actual Text:= [Sign In] Expected Text:= [Sign In]]]>
+            </line>
+            <line>
+              <![CDATA[<br> Passed : Actual Text:= [Sign Up] Expected Text:= [Sign Up]]]>
+            </line>
+            <line>
+              <![CDATA[<br> Passed : Actual Text:= [openweathermap] Expected Text:= [openweathermap]]]>
+            </line>
+            <line>
+              <![CDATA[<br> Passed : Actual Text:= [Your city name] Expected Text:= [Your city name]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- landingAndVerifyingFieldValues -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.WeatherForcastTestCase@31a5c39e]" name="teardown" is-config="true" duration-ms="2076" started-at="2018-10-21T20:08:42Z" finished-at="2018-10-21T20:08:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.WeatherForcastTestCase@31a5c39e]" name="initialize" is-config="true" duration-ms="4834" started-at="2018-10-21T20:08:44Z" finished-at="2018-10-21T20:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="verifyInvalidCityName()[pri:0, instance:testCases.WeatherForcastTestCase@31a5c39e]" name="verifyInvalidCityName" duration-ms="5591" started-at="2018-10-21T20:08:49Z" finished-at="2018-10-21T20:08:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>WebElement is Visible with xpath : //h2[text()='Current weather and forecasts in your city']]]>
+            </line>
+            <line>
+              <![CDATA[<br>pageObjects.WeatherLandingPage: Page Load Successfully.]]>
+            </line>
+            <line>
+              <![CDATA[-> xpath: //input[@placeholder='Your city name']]: Object Loaded successfully. ]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[<br>WebElement is Visible with xpath : //h2[span[text()='Weather in your city']]]]>
+            </line>
+            <line>
+              <![CDATA[<br>pageObjects.WeatherCityNotFoundPage: Page Load Successfully.]]>
+            </line>
+            <line>
+              <![CDATA[-> xpath: //div[text()='Not found']]: Object Loaded successfully. ]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[<br> Passed : Actual Text:= [×
+Not found] Expected Text:= [Not found]]]>
+            </line>
+            <line>
+              <![CDATA[<br> Passed : Actual Text:= [loondon] Expected Text:= [loondon]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidCityName -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.WeatherForcastTestCase@31a5c39e]" name="teardown" is-config="true" duration-ms="2084" started-at="2018-10-21T20:08:54Z" finished-at="2018-10-21T20:08:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.WeatherForcastTestCase@31a5c39e]" name="initialize" is-config="true" duration-ms="5319" started-at="2018-10-21T20:08:56Z" finished-at="2018-10-21T20:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="verifyValidCityName()[pri:0, instance:testCases.WeatherForcastTestCase@31a5c39e]" name="verifyValidCityName" duration-ms="9978" started-at="2018-10-21T20:09:02Z" finished-at="2018-10-21T20:09:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>WebElement is Visible with xpath : //h2[text()='Current weather and forecasts in your city']]]>
+            </line>
+            <line>
+              <![CDATA[<br>pageObjects.WeatherLandingPage: Page Load Successfully.]]>
+            </line>
+            <line>
+              <![CDATA[-> xpath: //input[@placeholder='Your city name']]: Object Loaded successfully. ]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[<br>WebElement is Visible with xpath : //h2[span[text()='Weather in your city']]]]>
+            </line>
+            <line>
+              <![CDATA[<br>pageObjects.WeatherCityFoundPage: Page Load Successfully.]]>
+            </line>
+            <line>
+              <![CDATA[-> xpath: //a[normalize-space(.)='London, GB']]: Object Loaded successfully. ]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[<br> Passed : Actual Text:= [London, GB] Expected Text:= [London, GB]]]>
+            </line>
+            <line>
+              <![CDATA[<br> Passed : Actual Text:= [London, GB] Expected Text:= [London, GB]]]>
+            </line>
+            <line>
+              <![CDATA[-> xpath: //p[contains(normalize-space(),'temperature from')]]: Object Loaded successfully. ]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[<br> Failed : Actual Text:= [14.5°С temperature from 12 to 17 °С, wind 3.1 m/s. clouds 90 %, 1028 hpa] Expected Text:= [temperature from]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidCityName -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.WeatherForcastTestCase@31a5c39e]" name="teardown" is-config="true" duration-ms="2094" started-at="2018-10-21T20:09:12Z" finished-at="2018-10-21T20:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.WeatherForcastTestCase -->
+    </test> <!-- Scenarios Related to Open Weather Api -->
+  </suite> <!-- Suite -->
+</testng-results>

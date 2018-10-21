@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Scenarios Related to Open Weather Api</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">56,490</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Scenarios Related to Open Weather Api &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">testCases.WeatherForcastTestCase</td><td><a href="#m0">checkForValidAndInvalidSignIn</a></td><td rowspan="1">1540152503497</td><td rowspan="1">9041</td></tr><tr class="passedeven"><td><a href="#m1">landingAndVerifyingFieldValues</a></td><td rowspan="1">1540152518171</td><td rowspan="1">4045</td></tr><tr class="passedeven"><td><a href="#m2">verifyInvalidCityName</a></td><td rowspan="1">1540152529129</td><td rowspan="1">5591</td></tr><tr class="passedeven"><td><a href="#m3">verifyValidCityName</a></td><td rowspan="1">1540152542125</td><td rowspan="1">9978</td></tr></tbody>
+</table>
+<h2>Scenarios Related to Open Weather Api</h2><h3 id="m0">testCases.WeatherForcastTestCase#checkForValidAndInvalidSignIn</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><br>WebElement is Visible with xpath : //h2[text()='Current weather and forecasts in your city']<br/><br>pageObjects.WeatherLandingPage: Page Load Successfully.<br/><br>WebElement is Visible with xpath : //h3[normalize-space(.)='Sign In']<br/><br>pageObjects.WeatherSignInPage: Page Load Successfully.<br/>-> xpath: //div[@class='input-group']//input[@id='user_email']]: Object Loaded successfully. <br/>
+<br/>-> xpath: //div[@class='panel-body']]: Object Loaded successfully. <br/>
+<br/><br> Passed : Actual Text:= [Invalid Email or password.] Expected Text:= [Invalid Email or password]<br/>-> xpath: //div[@class='input-group']//input[@id='user_email']]: Object Loaded successfully. <br/>
+<br/>-> xpath: //div[@class='panel-body']]: Object Loaded successfully. <br/>
+<br/><br> Passed : Actual Text:= [Signed in successfully.] Expected Text:= [Signed in successfully]</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.WeatherForcastTestCase#landingAndVerifyingFieldValues</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><br>WebElement is Visible with xpath : //h2[text()='Current weather and forecasts in your city']<br/><br>pageObjects.WeatherLandingPage: Page Load Successfully.<br/><br> Passed : Actual Text:= [Current weather and forecasts in your city] Expected Text:= [Current weather and forecasts in your city]<br/><br> Passed : Actual Text:= [Sign In] Expected Text:= [Sign In]<br/><br> Passed : Actual Text:= [Sign Up] Expected Text:= [Sign Up]<br/><br> Passed : Actual Text:= [openweathermap] Expected Text:= [openweathermap]<br/><br> Passed : Actual Text:= [Your city name] Expected Text:= [Your city name]</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCases.WeatherForcastTestCase#verifyInvalidCityName</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><br>WebElement is Visible with xpath : //h2[text()='Current weather and forecasts in your city']<br/><br>pageObjects.WeatherLandingPage: Page Load Successfully.<br/>-> xpath: //input[@placeholder='Your city name']]: Object Loaded successfully. <br/>
+<br/><br>WebElement is Visible with xpath : //h2[span[text()='Weather in your city']]<br/><br>pageObjects.WeatherCityNotFoundPage: Page Load Successfully.<br/>-> xpath: //div[text()='Not found']]: Object Loaded successfully. <br/>
+<br/><br> Passed : Actual Text:= [×
+Not found] Expected Text:= [Not found]<br/><br> Passed : Actual Text:= [loondon] Expected Text:= [loondon]</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testCases.WeatherForcastTestCase#verifyValidCityName</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><br>WebElement is Visible with xpath : //h2[text()='Current weather and forecasts in your city']<br/><br>pageObjects.WeatherLandingPage: Page Load Successfully.<br/>-> xpath: //input[@placeholder='Your city name']]: Object Loaded successfully. <br/>
+<br/><br>WebElement is Visible with xpath : //h2[span[text()='Weather in your city']]<br/><br>pageObjects.WeatherCityFoundPage: Page Load Successfully.<br/>-> xpath: //a[normalize-space(.)='London, GB']]: Object Loaded successfully. <br/>
+<br/><br> Passed : Actual Text:= [London, GB] Expected Text:= [London, GB]<br/><br> Passed : Actual Text:= [London, GB] Expected Text:= [London, GB]<br/>-> xpath: //p[contains(normalize-space(),'temperature from')]]: Object Loaded successfully. <br/>
+<br/><br> Failed : Actual Text:= [14.5°С temperature from 12 to 17 °С, wind 3.1 m/s. clouds 90 %, 1028 hpa] Expected Text:= [temperature from]</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

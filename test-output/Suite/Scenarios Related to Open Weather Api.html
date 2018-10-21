@@ -1,0 +1,177 @@
+<html>
+<head>
+<title>TestNG:  Scenarios Related to Open Weather Api</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Scenarios Related to Open Weather Api</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Oct 22 01:38:17 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>56 seconds (56490 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.WeatherForcastTestCase.checkForValidAndInvalidSignIn()'><b>checkForValidAndInvalidSignIn</b><br>Test class: testCases.WeatherForcastTestCase<br/>
+<a href="#Output-1681920301" onClick='toggleBox("Output-1681920301", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1681920301" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1681920301">
+<br>WebElement is Visible with xpath : //h2[text()='Current weather and forecasts in your city']<br/>
+<br>pageObjects.WeatherLandingPage: Page Load Successfully.<br/>
+<br>WebElement is Visible with xpath : //h3[normalize-space(.)='Sign In']<br/>
+<br>pageObjects.WeatherSignInPage: Page Load Successfully.<br/>
+-> xpath: //div[@class='input-group']//input[@id='user_email']]: Object Loaded successfully. <br/>
+
+<br/>
+-> xpath: //div[@class='panel-body']]: Object Loaded successfully. <br/>
+
+<br/>
+<br> Passed : Actual Text:= [Invalid Email or password.] Expected Text:= [Invalid Email or password]<br/>
+-> xpath: //div[@class='input-group']//input[@id='user_email']]: Object Loaded successfully. <br/>
+
+<br/>
+-> xpath: //div[@class='panel-body']]: Object Loaded successfully. <br/>
+
+<br/>
+<br> Passed : Actual Text:= [Signed in successfully.] Expected Text:= [Signed in successfully]<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>testCases.WeatherForcastTestCase@31a5c39e</td></tr>
+<tr>
+<td title='testCases.WeatherForcastTestCase.landingAndVerifyingFieldValues()'><b>landingAndVerifyingFieldValues</b><br>Test class: testCases.WeatherForcastTestCase<br/>
+<a href="#Output-1640296160" onClick='toggleBox("Output-1640296160", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1640296160" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1640296160">
+<br>WebElement is Visible with xpath : //h2[text()='Current weather and forecasts in your city']<br/>
+<br>pageObjects.WeatherLandingPage: Page Load Successfully.<br/>
+<br> Passed : Actual Text:= [Current weather and forecasts in your city] Expected Text:= [Current weather and forecasts in your city]<br/>
+<br> Passed : Actual Text:= [Sign In] Expected Text:= [Sign In]<br/>
+<br> Passed : Actual Text:= [Sign Up] Expected Text:= [Sign Up]<br/>
+<br> Passed : Actual Text:= [openweathermap] Expected Text:= [openweathermap]<br/>
+<br> Passed : Actual Text:= [Your city name] Expected Text:= [Your city name]<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testCases.WeatherForcastTestCase@31a5c39e</td></tr>
+<tr>
+<td title='testCases.WeatherForcastTestCase.verifyInvalidCityName()'><b>verifyInvalidCityName</b><br>Test class: testCases.WeatherForcastTestCase<br/>
+<a href="#Output-1391624125" onClick='toggleBox("Output-1391624125", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1391624125" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1391624125">
+<br>WebElement is Visible with xpath : //h2[text()='Current weather and forecasts in your city']<br/>
+<br>pageObjects.WeatherLandingPage: Page Load Successfully.<br/>
+-> xpath: //input[@placeholder='Your city name']]: Object Loaded successfully. <br/>
+
+<br/>
+<br>WebElement is Visible with xpath : //h2[span[text()='Weather in your city']]<br/>
+<br>pageObjects.WeatherCityNotFoundPage: Page Load Successfully.<br/>
+-> xpath: //div[text()='Not found']]: Object Loaded successfully. <br/>
+
+<br/>
+<br> Passed : Actual Text:= [×
+Not found] Expected Text:= [Not found]<br/>
+<br> Passed : Actual Text:= [loondon] Expected Text:= [loondon]<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>testCases.WeatherForcastTestCase@31a5c39e</td></tr>
+<tr>
+<td title='testCases.WeatherForcastTestCase.verifyValidCityName()'><b>verifyValidCityName</b><br>Test class: testCases.WeatherForcastTestCase<br/>
+<a href="#Output-1896305732" onClick='toggleBox("Output-1896305732", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1896305732" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1896305732">
+<br>WebElement is Visible with xpath : //h2[text()='Current weather and forecasts in your city']<br/>
+<br>pageObjects.WeatherLandingPage: Page Load Successfully.<br/>
+-> xpath: //input[@placeholder='Your city name']]: Object Loaded successfully. <br/>
+
+<br/>
+<br>WebElement is Visible with xpath : //h2[span[text()='Weather in your city']]<br/>
+<br>pageObjects.WeatherCityFoundPage: Page Load Successfully.<br/>
+-> xpath: //a[normalize-space(.)='London, GB']]: Object Loaded successfully. <br/>
+
+<br/>
+<br> Passed : Actual Text:= [London, GB] Expected Text:= [London, GB]<br/>
+<br> Passed : Actual Text:= [London, GB] Expected Text:= [London, GB]<br/>
+-> xpath: //p[contains(normalize-space(),'temperature from')]]: Object Loaded successfully. <br/>
+
+<br/>
+<br> Failed : Actual Text:= [14.5°С temperature from 12 to 17 °С, wind 3.1 m/s. clouds 90 %, 1028 hpa] Expected Text:= [temperature from]<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>testCases.WeatherForcastTestCase@31a5c39e</td></tr>
+</table><p>
+</body>
+</html>
