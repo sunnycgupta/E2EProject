@@ -1,0 +1,14 @@
+Hi All
+
+
+For Updating the project we can follow the below steps
+
+Right Click on your E2EProject maven -> update project
+
+For building and executing the project 
+
+Right Click on E2EProject  run as -> Maven build...
+
+In the goals section please type clean install  and click on the Run  button.
+
+Maven will run the testng.xml 	which is present in the suiteXmlFile tag in the POM file
